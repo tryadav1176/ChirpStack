@@ -30,4 +30,31 @@ This project lets users **create, view, edit, and delete tweets** — a great wa
 git clone https://github.com/your-username/chirpstack.git
 cd chirpstack
 
+```
+### 2. Setup the Environment
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate  # Windows
+# OR
+source .venv/bin/activate      # macOS/Linux
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Apply Migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+### 5. Run the development server
+```bash
+python manage.py runserver
+```
+Visit: http://127.0.0.1:8000/tweet/
+
+📚 Credit
+This project is heavily inspired by Chai aur Code — check out their content for more Django and Python tutorials!
+
 
