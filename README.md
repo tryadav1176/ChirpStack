@@ -27,7 +27,7 @@ This project lets users **create, view, edit, and delete tweets** — a great wa
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/chirpstack.git
+git clone https://github.com/tryadav1176/chirpstack.git
 cd chirpstack
 
 ```
